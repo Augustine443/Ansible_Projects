@@ -5,10 +5,10 @@
   become: yes
   tasks: 
   - name: pinging to 192.168.154.185
-      cisco.ios.ios_ping:
+    cisco.ios.ios_ping:
              dest: 192.168.154.188
-      register: result
+    register: result
       
-    - name: print result
-      ansible.builtin.debug:
-                    msg: "{{ result }}"
+  - name: print result
+    ansible.builtin.debug:
+               msg: "{{ result }}"
