@@ -1,0 +1,8 @@
+---
+collections:
+   - name: community.network
+   - name: community.general
+   - name: ansible.netcomm
+   - name: cisco.ios
+   - name: arista.eos
+   - name: cisco.nxos
